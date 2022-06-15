@@ -1,6 +1,29 @@
 const Exercise1 = () => {
+
+    let problemOne = [44, 154, 32, 41, 7, 22, 17, 21, 9, 20];
+    let problemTwo = [22, 14, 3, 5, 667, 19, 2, 41, 9, 70];
+
+    const randomize = (array) => {
+        for (let i = array.length -1; i >= 0; i--) {
+            let randomIndex = Math.floor(Math.random() * (i + 1));
+            let swap = array[i];
+            array[i] = array[randomIndex];
+            array[randomIndex] = swap;
+        }
+    }
+    
+    randomize(problemOne)
+
     return (
-        <h1>test</h1>
+        <div>
+            <div>
+                <h5>1. Randomize the number set [44, 154, 32, 41, 7, 22, 17, 21, 9, 20] --{'> '} 
+                    [{problemOne.map((result) => (
+                    <span> {result},</span>
+                ))}] </h5>
+                <h5>2. Find the mean of [22, 14, 3, 5, 667, 19, 2, 41, 9, 70] --{'> '} </h5>
+            </div>
+        </div>
     )
 }
 
