@@ -28,19 +28,23 @@ const Exercise2 = () => {
 
                     <form>
                         <h1>Stay in touch with Samantha</h1>
-                        <div class="mb-2">
-                            <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Email" />
-                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col signup-col">
+                                    <input type="email" style={{ width: "100%" }} value="Email" />
+                                </div>
 
-                        <div class="row mb-2">
-                            <div class="col">
-                                <input type="tel" class="form-control" placeholder="Phone" />
                             </div>
-                            <div class="col mb2">
-                                <input type="text" class="form-control" placeholder="ZIP" />
+                            <div class="row">
+                                <div class="col signup-col">
+                                    <input type="tel" style={{ width: "100%" }} value="Phone" />
+                                </div>
+                                <div class="col signup-col">
+                                    <input type="text" style={{ width: "100%" }} value="ZIP" />
+                                </div>
                             </div>
                         </div>
-                        <button type="submit" class="btn btn-primary">Sign Up</button>
+                        <button className="signup-button" type="submit">Sign Up</button>
                     </form>
                 </div>
 

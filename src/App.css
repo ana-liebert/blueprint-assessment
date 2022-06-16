@@ -1,8 +1,17 @@
+html {
+  overflow: hidden;
+  height: 100%;
+}
 body {
   margin: 0;
   padding: 0;
+  overflow: auto;
+  height: 100%;
 }
 
+h1 {
+  font-weight: bold;
+}
 
 nav {
   background-image: linear-gradient(250deg, #109ebe 10%, #003366 60%);
@@ -38,7 +47,7 @@ footer {
 }
 
 .volunteer-button,
-.donate-button {
+.donate-button, .signup-button {
   border-radius: 20px;
   width: 90px;
   margin: 5px;
@@ -49,6 +58,11 @@ footer {
   font-size: 14px;
 }
 
+.signup-button {
+color: #003366;
+background-color: #66ccff;
+width: 25vw;
+}
 .volunteer-button {
   background-color: #ffcc00;
   color: #003366;
@@ -89,14 +103,14 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: left;
-  padding: 50px;
+  padding: 0 170px 0 50px;
   /* transform: skewX(+11deg); */
 }
 
 .samantha-logo {
   height: 13vw;
-  ;
   width: 20vw;
+  margin-bottom: 30px;
   /* height: 13vw;
   position: absolute;
   top: 60px;
@@ -104,9 +118,18 @@ footer {
   /* transform: skewX(+11deg); */
 }
 
-form {
-  margin: 50px;
+.signup-col{
+  margin: 3px;
+  padding: 0px;
 }
+
+input {
+  border: solid white 2px;
+  background-color: #3399cc;
+  color: white;
+  padding: 5px;
+}
+
 
 .about-container {
   display: flex;
