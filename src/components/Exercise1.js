@@ -6,7 +6,7 @@ const Exercise1 = () => {
     //Problem one ---------------------------------------------->
     //Looping through the number set, finding a random index, setting the array index to a random index, then continually swapping the random index for the original indexed array, until all values have been randomized
     //Mapping through the result to display the new array in the HTML below 
-    
+
     let problemOne = [44, 154, 32, 41, 7, 22, 17, 21, 9, 20];
 
     const randomize = (array) => {
@@ -65,6 +65,24 @@ const Exercise1 = () => {
     }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
 
+    //Bonus ---------------------------------------------->
+    // let sentence = "Use the shortest possible regular expression or replacement method using php, ruby or javascript to put a smiley face after every word that ends in a vowel in this sentence.";
+    // let replace = sentence.replace(/(["aeiou"])/g, "$1:)");
+
+    // // console.log(replace)
+
+    // const findAndReplace = (str) => {
+    //     for (let i = 0; i < str.length; i++) {
+    //         // console.log(str[i])
+    //         if (str[i] === " " || "." ) {
+    //             str.replace(/.{2}/g, '$&c');
+    //             console.log(str)
+    //         }
+    //     }
+    // }
+
+    // console.log(findAndReplace(sentence))
+
     return (
         <div>
 
@@ -78,7 +96,7 @@ const Exercise1 = () => {
 
             <div>
                 <h5>3. Fetch and parse the data --{'> '} </h5>
-                <table style={{ border: "solid", width: "500px", textAlign: "center", margin: "50px" }}>
+                {/* <table style={{ border: "solid", width: "500px", textAlign: "center", margin: "50px" }}>
                     <tr>
                         <th>First Name</th>
                         <th>Last Name</th>
@@ -95,7 +113,7 @@ const Exercise1 = () => {
                             </tr>
                         )
                     })}
-                </table>
+                </table> */}
             </div>
         </div>
     )
