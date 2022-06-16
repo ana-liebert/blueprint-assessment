@@ -171,6 +171,12 @@ input {
   font-weight: bold;
 }
 
+.donate-col:hover {
+  background-color: #ffcc00;
+  color: #003366;
+  border-color: #003366;
+}
+
 .about-header {
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
