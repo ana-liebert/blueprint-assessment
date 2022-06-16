@@ -17,8 +17,6 @@ const Exercise2 = () => {
                 </div>
             </nav>
 
-            {/* hero-----------> */}
-
             <div id="hero">
 
                 <div>
@@ -48,9 +46,7 @@ const Exercise2 = () => {
 
             </div>
 
-            {/* hero-------------> */}
 
-            {/* about------------> */}
             <div className="about-container container">
 
 
@@ -81,16 +77,39 @@ const Exercise2 = () => {
                 </div>
 
 
+                <div className="about-samantha">
 
-                <div>
-                    <p>placeholder: DIV FOR about content with images</p>
+                    <div className="container">
+                        <h1 className="about-header">Meet Samantha</h1>
+
+                        <div className="row">
+                            <div className="col">
+                                <img className="about-img" src={process.env.PUBLIC_URL + '/Blu_developer_test/source-files/about-photo_2.png'} />
+                                <section>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat at mi sit amet faucibus. In hac habitasse platea dictumst. Etiam pulvinar sem et quam placerat maximus. Vivamus iaculis sollicitudin efficitur. In et ligula fringilla, finibus mi id, luctus mauris. Morbi dolor felis, tristique facilisis accumsan vitae, placerat nec risus. Cras odio mauris, varius vitae malesuada vel, placerat in neque. Pellentesque dignissim imperdiet turpis, placerat rutrum eros porttitor sit amet. Donec dictum fringilla efficitur.
+                                </section>
+                                <section>
+                                    Donec imperdiet, orci at convallis aliquam, libero nibh egestas quam, at consequat eros nisi in tellus. Cras feugiat maximus sapien nec varius. Sed viverra finibus cursus. Duis semper ut arcu sed tempor. Vestibulum sit amet odio finibus, interdum metus id, dignissim nisi.
+                                </section>
+
+                                <div className="float-box">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                </div>
+                            </div>
+
+                            <div className="col">
+                                <img className="about-img img2" src={process.env.PUBLIC_URL + '/Blu_developer_test/source-files/about-photo_1.jpg'} />
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
                 </div>
 
 
             </div>
-
-            {/* about------------> */}
-
 
             <footer>
                 <div>
