@@ -3,8 +3,38 @@ body {
   padding: 0;
 }
 
-div {
-  text-align: center;
+
+nav {
+  background-image: linear-gradient(250deg, #109ebe 10%, #003366 60%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.nav-logo {
+  height: 65px;
+  margin: 20px;
+}
+
+.volunteer-button, .donate-button {
+  border-radius: 20px;
+  width: 100px;
+  margin: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 5px;
+  border-style: none;
+}
+
+.volunteer-button {
+  background-color: #ffcc00;
+  color:#003366;
+}
+.donate-button {
+  background-color: #cc0033;
+  color: white;
 }
 
 #hero,

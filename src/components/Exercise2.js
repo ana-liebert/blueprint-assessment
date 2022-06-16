@@ -5,7 +5,13 @@ const Exercise2 = () => {
     return (
         <body>
             <nav>
-                <p>placeholder: navigation with logo, buttons, social icons</p>
+                <div>
+                <img className="nav-logo" src={process.env.PUBLIC_URL + '/Blu_developer_test/source-files/SamanthaHall_Logo_reversed.png'} />
+                </div>
+                <div>
+                    <button className="volunteer-button">Volunteer</button>
+                    <button className="donate-button">Donate</button>
+                </div>
 
             </nav>
 
