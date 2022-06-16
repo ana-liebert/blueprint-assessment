@@ -1,5 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 div {
   text-align: center;
-  border: solid;
-  margin: 20px;
+}
+
+#hero, .hero-img {
+height: 50vw;
+max-height: 600px;
+width: 100%;
+object-fit: cover;
+position: relative;
+}
+
+.hero-overlay {
+  background-color: #f4f415;
+  background-image: linear-gradient(250deg, #e8ee94 -8%, #006699 22%);
+  position: absolute;
+  object-fit: cover;
+  height: 50vw;
+  max-height: 600px;
+  width: 45%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  padding: 50px;
+  /* transform: skewX(+11deg); */
+}
+
+.samantha-logo {
+  height: 13vw;;
+  width: 20vw;
+  /* height: 13vw;
+  position: absolute;
+  top: 60px;
+  left: 60px; */
+  /* transform: skewX(+11deg); */
+}
+
+form {
+  margin: 50px;
 }
