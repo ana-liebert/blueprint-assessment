@@ -18,23 +18,31 @@ nav {
   margin: 20px;
 }
 
-.volunteer-button, .donate-button {
+.volunteer-button,
+.donate-button {
   border-radius: 20px;
-  width: 100px;
+  width: 90px;
   margin: 5px;
   font-weight: bold;
   text-transform: uppercase;
   padding: 5px;
   border-style: none;
+  font-size: 14px;
 }
 
 .volunteer-button {
   background-color: #ffcc00;
-  color:#003366;
+  color: #003366;
 }
+
 .donate-button {
   background-color: #cc0033;
   color: white;
+}
+
+.socials {
+  height: 50px;
+  margin: -8px;
 }
 
 #hero,

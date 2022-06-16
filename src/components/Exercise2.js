@@ -6,13 +6,15 @@ const Exercise2 = () => {
         <body>
             <nav>
                 <div>
-                <img className="nav-logo" src={process.env.PUBLIC_URL + '/Blu_developer_test/source-files/SamanthaHall_Logo_reversed.png'} />
+                    <img className="nav-logo" src={process.env.PUBLIC_URL + '/Blu_developer_test/source-files/SamanthaHall_Logo_reversed.png'} />
                 </div>
                 <div>
                     <button className="volunteer-button">Volunteer</button>
                     <button className="donate-button">Donate</button>
+                    <img className="socials" src={process.env.PUBLIC_URL + '/Blu_developer_test/source-files/Social-icons/Facebook.svg'} />
+                    <img className="socials" src={process.env.PUBLIC_URL + '/Blu_developer_test/source-files/Social-icons/Twitter.svg'} />
+                    <img className="socials" src={process.env.PUBLIC_URL + '/Blu_developer_test/source-files/Social-icons/IG.png'} />
                 </div>
-
             </nav>
 
             {/* hero-----------> */}
