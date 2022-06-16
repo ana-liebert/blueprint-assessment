@@ -91,8 +91,15 @@ const Exercise2 = () => {
 
             {/* about------------> */}
 
+
             <footer>
-                <p>placeholder: footer</p>
+                <div>
+                    <img className="nav-logo" src={process.env.PUBLIC_URL + '/Blu_developer_test/source-files/SamanthaHall_Logo_reversed.png'} />
+                </div>
+                <div>
+                    <div className="footer-box">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+                    <div>Privacy Policy @2021</div>
+                </div>
             </footer>
 
         </body>

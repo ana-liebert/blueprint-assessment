@@ -13,6 +13,25 @@ nav {
   font-family: 'Oswald', sans-serif;
 }
 
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background-color: #003366;
+  height: 20vw;
+  color: white;
+  text-align: end;
+  font-size: 12px;
+}
+
+.footer-box {
+  border: solid white 1px;
+  text-align: center;
+  padding: 5px 50px 5px 50px;
+  margin-bottom: 10px;
+}
+
 .nav-logo {
   height: 65px;
   margin: 20px;
@@ -87,10 +106,6 @@ nav {
 
 form {
   margin: 50px;
-}
-
-footer {
-  border: solid;
 }
 
 .about-container {
