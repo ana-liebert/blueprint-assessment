@@ -19,7 +19,9 @@ const Exercise2 = () => {
 
                 <div class="hero-overlay">
                     <img class="samantha-logo" src={process.env.PUBLIC_URL + '/Blu_developer_test/source-files/SamanthaHall_Logo_reversed.png'} />
+
                     <form>
+                        <h1>Stay in touch with Samantha</h1>
                         <div class="mb-2">
                             <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Email" />
                         </div>
@@ -41,11 +43,42 @@ const Exercise2 = () => {
             {/* hero-------------> */}
 
             {/* about------------> */}
-            <div>
-                <div>
-                    <p>placeholder: Donate to support</p>
+            <div className="about-container container">
+
+
+                <div className="donate-box">
+                    <h2>Donate to support Samantha's campaign</h2>
+
+                    <div className="container m-2 p-2">
+
+                        <div class="row donate-row">
+                            <div class="col donate-col">
+                                $25
+                            </div>
+                            <div class="col donate-col">
+                                Other
+                            </div>
+                        </div>
+                        <div class="row donate-row">
+                            <div class="col donate-col">
+                                $50
+                            </div>
+                            <div class="col donate-col">
+                                $100
+                            </div>
+                        </div>
+
+                    </div>
+
                 </div>
-                <p>placeholder: about content with images</p>
+
+
+
+                <div>
+                    <p>placeholder: DIV FOR about content with images</p>
+                </div>
+
+
             </div>
 
             {/* about------------> */}
