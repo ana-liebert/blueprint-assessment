@@ -98,7 +98,7 @@ const Exercise1 = () => {
                 <h5>3. Fetch and parse the data --{'> '} </h5>
 
 
-    {/* Please comment this back in, has an issue loading on initial page load, but does map through the data accurately --------> */}
+    {/* This is commented out because it causes an issue on intial page load, but does map through the data accurately when commented in after page loads--------> */}
 
                 {/* <table style={{ border: "solid", width: "500px", textAlign: "center", margin: "50px" }}>
                     <tr>

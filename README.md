@@ -13,7 +13,7 @@ I chose to build out this assesment in React, to allow me to easily route for th
 * Problems 1-3 are completed 
 * I've included notes in the javascript file to explain some of my thought process
 
-** Please note ** the table at the initial render is hard coded. Due to an asynchronous issue, I have the code with data fetched commented out. Please comment this in, and see that it does work. 
+** Please note ** the table at the initial render is hard coded. Please view the commented out code as it does function appropriately with the exception of an asychronous issue causing the page to not display
 
 
 ##### Exercise 2:
