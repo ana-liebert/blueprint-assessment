@@ -4,25 +4,25 @@ const Exercise2 = () => {
         <body>
             <nav>
                 <div>
-                    <img className="nav-logo" src={process.env.PUBLIC_URL + '/Blu_developer_test/source-files/SamanthaHall_Logo_reversed.png'} />
+                    <img alt="Samantha Hall logo" className="nav-logo" src={process.env.PUBLIC_URL + '/Blu_developer_test/source-files/SamanthaHall_Logo_reversed.png'} />
                 </div>
                 <div>
                     <button className="volunteer-button">Volunteer</button>
                     <button className="donate-button">Donate</button>
-                    <img className="socials" src={process.env.PUBLIC_URL + '/Blu_developer_test/source-files/Social-icons/Facebook.svg'} />
-                    <img className="socials" src={process.env.PUBLIC_URL + '/Blu_developer_test/source-files/Social-icons/Twitter.svg'} />
-                    <img className="socials" src={process.env.PUBLIC_URL + '/Blu_developer_test/source-files/Social-icons/IG.png'} />
+                    <img alt="Facebook icon" className="socials" src={process.env.PUBLIC_URL + '/Blu_developer_test/source-files/Social-icons/Facebook.svg'} />
+                    <img alt="Twitter icon" className="socials" src={process.env.PUBLIC_URL + '/Blu_developer_test/source-files/Social-icons/Twitter.svg'} />
+                    <img alt="IG icon" className="socials" src={process.env.PUBLIC_URL + '/Blu_developer_test/source-files/Social-icons/IG.png'} />
                 </div>
             </nav>
 
             <div id="hero">
 
                 <div>
-                    <img className="hero-img" src={process.env.PUBLIC_URL + '/Blu_developer_test/source-files/hero.png'} />
+                    <img alt="hero" className="hero-img" src={process.env.PUBLIC_URL + '/Blu_developer_test/source-files/hero.png'} />
                 </div>
 
                 <div class="hero-overlay">
-                    <img class="samantha-logo" src={process.env.PUBLIC_URL + '/Blu_developer_test/source-files/SamanthaHall_Logo_reversed.png'} />
+                    <img alt="Samantha Hall logo" class="samantha-logo" src={process.env.PUBLIC_URL + '/Blu_developer_test/source-files/SamanthaHall_Logo_reversed.png'} />
 
                     <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfOUqR7GjTwKH793BxzhisX4-3yqI-Qk8-8aBLWzrnQJ-oDzA/formResponse" method="post">
                         <h1>Stay in touch with Samantha</h1>
@@ -80,7 +80,7 @@ const Exercise2 = () => {
 
                         <div className="row">
                             <div className="col">
-                                <img className="about-img" src={process.env.PUBLIC_URL + '/Blu_developer_test/source-files/about-photo_2.png'} />
+                                <img alt="Samantha" className="about-img" src={process.env.PUBLIC_URL + '/Blu_developer_test/source-files/about-photo_2.png'} />
                                 <section>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat at mi sit amet faucibus. In hac habitasse platea dictumst. Etiam pulvinar sem et quam placerat maximus. Vivamus iaculis sollicitudin efficitur. In et ligula fringilla, finibus mi id, luctus mauris. Morbi dolor felis, tristique facilisis accumsan vitae, placerat nec risus. Cras odio mauris, varius vitae malesuada vel, placerat in neque. Pellentesque dignissim imperdiet turpis, placerat rutrum eros porttitor sit amet. Donec dictum fringilla efficitur.
                                 </section>
@@ -94,7 +94,7 @@ const Exercise2 = () => {
                             </div>
 
                             <div className="col">
-                                <img className="about-img img2" src={process.env.PUBLIC_URL + '/Blu_developer_test/source-files/about-photo_1.jpg'} />
+                                <img alt="campaigners at office" className="about-img img2" src={process.env.PUBLIC_URL + '/Blu_developer_test/source-files/about-photo_1.jpg'} />
                             </div>
 
                         </div>
@@ -104,7 +104,7 @@ const Exercise2 = () => {
 
             <footer>
                 <div>
-                    <img className="nav-logo" src={process.env.PUBLIC_URL + '/Blu_developer_test/source-files/SamanthaHall_Logo_reversed.png'} />
+                    <img alt="logo" className="nav-logo" src={process.env.PUBLIC_URL + '/Blu_developer_test/source-files/SamanthaHall_Logo_reversed.png'} />
                 </div>
                 <div>
                     <div className="footer-box">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>

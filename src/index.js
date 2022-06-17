@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Exercise1 from './components/Exercise1';
 import Exercise2 from './components/Exercise2';
 
+console.log(App)
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Router>

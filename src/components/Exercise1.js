@@ -56,8 +56,12 @@ const Exercise1 = () => {
         //I attached a screenshot of the error message from the URL in the main directory ----->
 
         const data = await response.text();
-        const objectArray = Function('"use strict";return (' + data + ')')();
+
+        // eslint-disable-next-line
+        const objectArray = Function('"use strict";return (' + data + ')')(); 
+
         setTable(objectArray)
+        console.log(table)
     }
 
 
@@ -85,12 +89,12 @@ const Exercise1 = () => {
     // console.log(findAndReplace(sentence))
 
     return (
-        <body className="exercise1-body">
+        <div className="exercise1-body">
             <h1>Exercise One</h1>
 
             <h5>1. Randomize the number set [44, 154, 32, 41, 7, 22, 17, 21, 9, 20] --{'> '}
                 [{problemOne.map((result) => (
-                    <span> {result},</span>
+                    <span key={result}> {result},</span>
                 ))}] </h5>
 
             <h5>2. Find the mean of [22, 14, 3, 5, 667, 19, 2, 41, 9, 70] --{'> '}
@@ -118,6 +122,7 @@ const Exercise1 = () => {
                 </table> */}
 
                 <table style={{ border: "solid", width: "500px", textAlign: "center", margin: "50px" }}>
+                    <tbody>
                     <tr>
                         <th>First Name</th>
                         <th>Last Name</th>
@@ -148,6 +153,7 @@ const Exercise1 = () => {
                                 <td>sarah@example.com</td>
                                 <td>female</td>
                             </tr>
+                    </tbody>
                 </table>
 
             </div>
@@ -155,7 +161,7 @@ const Exercise1 = () => {
             <button>
             <Link to="/exercise2"> LANDING PAGE EXERCISE</Link>
             </button>
-        </body>
+        </div>
     )
 }
 
