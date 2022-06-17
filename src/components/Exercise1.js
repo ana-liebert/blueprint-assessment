@@ -71,22 +71,16 @@ const Exercise1 = () => {
 
 
     //Bonus ---------------------------------------------->
+    // *** I did not finish the bonus, but included the start to give you a sense of my thought process
+
     // let sentence = "Use the shortest possible regular expression or replacement method using php, ruby or javascript to put a smiley face after every word that ends in a vowel in this sentence.";
-    // let replace = sentence.replace(/(["aeiou"])/g, "$1:)");
-
-    // // console.log(replace)
-
     // const findAndReplace = (str) => {
     //     for (let i = 0; i < str.length; i++) {
-    //         // console.log(str[i])
     //         if (str[i] === " " || "." ) {
     //             str.replace(/.{2}/g, '$&c');
-    //             console.log(str)
     //         }
     //     }
     // }
-
-    // console.log(findAndReplace(sentence))
 
     return (
         <div className="exercise1-body">
@@ -102,6 +96,10 @@ const Exercise1 = () => {
 
             <div>
                 <h5>3. Fetch and parse the data --{'> '} </h5>
+
+
+    {/* Please comment this back in, has an issue loading on initial page load, but does map through the data accurately --------> */}
+
                 {/* <table style={{ border: "solid", width: "500px", textAlign: "center", margin: "50px" }}>
                     <tr>
                         <th>First Name</th>

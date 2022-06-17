@@ -1,5 +1,6 @@
 const Exercise2 = () => {
 
+
     return (
         <body>
             <nav>
@@ -25,20 +26,20 @@ const Exercise2 = () => {
                     <img alt="Samantha Hall logo" class="samantha-logo" src={process.env.PUBLIC_URL + '/Blu_developer_test/source-files/SamanthaHall_Logo_reversed.png'} />
 
                     <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfOUqR7GjTwKH793BxzhisX4-3yqI-Qk8-8aBLWzrnQJ-oDzA/formResponse" method="post">
-                        <h1>Stay in touch with Samantha</h1>
-                        <div class="container">
+                        <h1 class="hero-head">Stay in touch with Samantha</h1>
+                        <div class="container signup-container">
                             <div class="row">
                                 <div class="col signup-col">
-                                    <input type="email" style={{ width: "100%" }} name="entry.2126475817" placeholder="Email" />
+                                    <input badinput="false" id="email" type="email" style={{ width: "100%" }} name="entry.2126475817" placeholder="Email" />
                                 </div>
 
                             </div>
                             <div class="row">
                                 <div class="col signup-col">
-                                    <input type="tel" style={{ width: "100%" }} name="entry.1281042882" placeholder="Phone" />
+                                    <input badinput="false" id="phone" type="tel" style={{ width: "100%" }} name="entry.1281042882" placeholder="Phone" />
                                 </div>
                                 <div class="col signup-col">
-                                    <input type="text" style={{ width: "100%" }} name="entry.905435085" placeholder="ZIP" />
+                                    <input badinput="false" id="zip" type="text" style={{ width: "100%" }} name="entry.905435085" placeholder="ZIP" />
                                 </div>
                             </div>
                         </div>
@@ -53,19 +54,19 @@ const Exercise2 = () => {
 
                     <h2>Donate to support Samantha's campaign</h2>
                     <div className="container m-2 p-2">
-                        <div class="row donate-row">
-                            <div class="col donate-col">
+                        <div className="row donate-row">
+                            <div className="col donate-col">
                                 $25
                             </div>
-                            <div class="col donate-col">
+                            <div className="col donate-col">
                                 Other
                             </div>
                         </div>
-                        <div class="row donate-row">
+                        <div className="row donate-row">
                             <div class="col donate-col">
                                 $50
                             </div>
-                            <div class="col donate-col">
+                            <div className="col donate-col">
                                 $100
                             </div>
                         </div>
