@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const Exercise1 = () => {
 
@@ -84,7 +85,8 @@ const Exercise1 = () => {
     // console.log(findAndReplace(sentence))
 
     return (
-        <div>
+        <body className="exercise1-body">
+            <h1>Exercise One</h1>
 
             <h5>1. Randomize the number set [44, 154, 32, 41, 7, 22, 17, 21, 9, 20] --{'> '}
                 [{problemOne.map((result) => (
@@ -114,8 +116,46 @@ const Exercise1 = () => {
                         )
                     })}
                 </table> */}
+
+                <table style={{ border: "solid", width: "500px", textAlign: "center", margin: "50px" }}>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Email</th>
+                        <th>Gender</th>
+                    </tr>
+                            <tr >
+                                <td>John</td>
+                                <td>Doe</td>
+                                <td>j@example.com</td>
+                                <td>male</td>
+                            </tr>
+                            <tr >
+                                <td>Sean</td>
+                                <td>Parker</td>
+                                <td>sean@example.com</td>
+                                <td>male</td>
+                            </tr>
+                            <tr >
+                                <td>Tony</td>
+                                <td>Stark</td>
+                                <td>tony@example.com</td>
+                                <td>male</td>
+                            </tr>
+                            <tr >
+                                <td>Sarah</td>
+                                <td>Smith</td>
+                                <td>sarah@example.com</td>
+                                <td>female</td>
+                            </tr>
+                </table>
+
             </div>
-        </div>
+
+            <button>
+            <Link to="/exercise2"> LANDING PAGE EXERCISE</Link>
+            </button>
+        </body>
     )
 }
 

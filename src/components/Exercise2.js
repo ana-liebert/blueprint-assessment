@@ -1,6 +1,4 @@
-
 const Exercise2 = () => {
-
 
     return (
         <body>
@@ -31,7 +29,7 @@ const Exercise2 = () => {
                         <div class="container">
                             <div class="row">
                                 <div class="col signup-col">
-                                    <input type="email" style={{ width: "100%" }}  name="entry.2126475817" placeholder="Email" />
+                                    <input type="email" style={{ width: "100%" }} name="entry.2126475817" placeholder="Email" />
                                 </div>
 
                             </div>
@@ -51,13 +49,10 @@ const Exercise2 = () => {
 
 
             <div className="about-container container">
-
-
                 <div className="donate-box">
+
                     <h2>Donate to support Samantha's campaign</h2>
-
                     <div className="container m-2 p-2">
-
                         <div class="row donate-row">
                             <div class="col donate-col">
                                 $25
@@ -74,11 +69,9 @@ const Exercise2 = () => {
                                 $100
                             </div>
                         </div>
-
+                    
                     </div>
-
                 </div>
-
 
                 <div className="about-samantha">
 
@@ -106,14 +99,8 @@ const Exercise2 = () => {
 
                         </div>
                     </div>
-
-
-
                 </div>
-
-
             </div>
-
 
             <footer>
                 <div>

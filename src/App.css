@@ -2,6 +2,7 @@ html {
   overflow: hidden;
   height: 100%;
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -9,7 +10,8 @@ body {
   height: 100%;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-weight: bold;
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
@@ -25,7 +27,7 @@ nav {
   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.39);
   z-index: 1;
   position: relative;
-  
+
 }
 
 footer {
@@ -53,7 +55,8 @@ footer {
 }
 
 .volunteer-button,
-.donate-button, .signup-button {
+.donate-button,
+.signup-button {
   border-radius: 20px;
   width: 90px;
   margin: 5px;
@@ -66,10 +69,11 @@ footer {
 }
 
 .signup-button {
-color: #003366;
-background-color: #66ccff;
-width: 25vw;
+  color: #003366;
+  background-color: #66ccff;
+  width: 25vw;
 }
+
 .volunteer-button {
   background-color: #ffcc00;
   color: #003366;
@@ -119,7 +123,7 @@ width: 25vw;
   margin-bottom: 30px;
 }
 
-.signup-col{
+.signup-col {
   margin: 3px;
   padding: 0px;
 }
@@ -131,12 +135,16 @@ input {
   padding: 5px;
 }
 
+::placeholder {
+  color: white;
+}
+
 
 .about-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  justify-items: center ;
+  justify-items: center;
   align-content: center;
   padding: 50px;
   margin: 50px;
@@ -213,4 +221,9 @@ section {
   opacity: 90%;
   padding: 20px;
   color: white;
+}
+
+.exercise1-body {
+margin: 50px;
+color: #003366;
 }
