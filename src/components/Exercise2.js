@@ -26,28 +26,27 @@ const Exercise2 = () => {
                 <div class="hero-overlay">
                     <img class="samantha-logo" src={process.env.PUBLIC_URL + '/Blu_developer_test/source-files/SamanthaHall_Logo_reversed.png'} />
 
-                    <form>
+                    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfOUqR7GjTwKH793BxzhisX4-3yqI-Qk8-8aBLWzrnQJ-oDzA/formResponse" method="post">
                         <h1>Stay in touch with Samantha</h1>
                         <div class="container">
                             <div class="row">
                                 <div class="col signup-col">
-                                    <input type="email" style={{ width: "100%" }} value="Email" />
+                                    <input type="email" style={{ width: "100%" }}  name="entry.2126475817" placeholder="Email" />
                                 </div>
 
                             </div>
                             <div class="row">
                                 <div class="col signup-col">
-                                    <input type="tel" style={{ width: "100%" }} value="Phone" />
+                                    <input type="tel" style={{ width: "100%" }} name="entry.1281042882" placeholder="Phone" />
                                 </div>
                                 <div class="col signup-col">
-                                    <input type="text" style={{ width: "100%" }} value="ZIP" />
+                                    <input type="text" style={{ width: "100%" }} name="entry.905435085" placeholder="ZIP" />
                                 </div>
                             </div>
                         </div>
                         <button className="signup-button" type="submit">Sign Up</button>
                     </form>
                 </div>
-
             </div>
 
 
@@ -114,6 +113,7 @@ const Exercise2 = () => {
 
 
             </div>
+
 
             <footer>
                 <div>
